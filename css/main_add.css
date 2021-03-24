@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/*js add class*/
+.size1 {
+    width: 1880px;
+    height: 990px;
+}
+
+.text_col {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+}
+
+.line_ev1 {
+    top: -368px;
+    height: 990px;
+    border-right: 5px solid #ffffff;
+    box-shadow: 10px 0px 9px -9px rgba(0,0,0,0.75);
+    z-index: 3;
+}
+
+.line_ev2 {
+    border-bottom: 5px solid #ffffff;
+    box-shadow: 0 10px 9px -9px rgba(0,0,0,0.75);
+    width: 1880px;
+}

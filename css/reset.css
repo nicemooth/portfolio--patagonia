@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/*reset*/
+
+header,nav,div,h1,a,img,ul,li,section,h2,p,h3,h4,h5,button,address,label,input,select,textarea,fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+body,h1,h2,h3,h4,h5,input,select
+,textarea {
+    font: normal 12px/1.5em "맑은 고딕","Malgun Gothic",sans-serif;
+    color: #333333;
+}
+
+
+ul,li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+button {
+    outline: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    margin: 0 auto;
+}
+
+address {
+    font-style: normal;
+}
+
+#top, #main_01, #main_02, #main_03, #main_04, #main_05 {
+    margin: 0 auto;
+    
+}
+
+#top_banner,#main_01, #main_02, #main_03, #main_04, #main_05, #main_06, #main_07, #bottom-box {
+    min-width: 1880px;
+    margin: 0 auto;
+}
+
+#main_05 {  
+    overflow: hidden;
+}
+
+

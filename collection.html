@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>파타고니아</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/top_banner.js"></script>
+    <script src="js/collection/collection_main.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <link rel="stylesheet" href="css/collection/collection_main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/patagonia_favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+   <header>
+        <nav id="top">
+           <div id="top_banner">
+               <div class="top_banner-logo">    
+                <h1><a href="index.html"><img src="images/top/patagonia_logo.png" alt="logo" width="170" height="55"></a></h1>
+                <h1><a href="index.html"><img src="images/top/patagonia_logo1.png" alt="logo" width="175" height="54"></a></h1>
+               </div><!--top_banner-logo-->
+               <div class="top_banner-menu">
+                <ul>
+                    <li class="bar"><a href="men.html">Men's</a>
+                        <div class="dropdown_men">
+                            <div class="dropdown_men-a">
+                                <a href="#">Clothing</a>
+                                <a href="#">아우터</a>
+                                <a href="#">플리스</a>
+                                <a href="#">티셔츠</a>
+                                <a href="#">스웻셔츠 &amp; 후디</a>
+                                <a href="#">스웨터</a>
+                                <a href="#">셔츠</a>
+                                <a href="#">바지 &amp; 반바지</a>
+                            </div><!--dropdown_men-clothing-->
+                            <div class="dropdown_men-a">
+                                <a href="#">Pack &amp; Gear</a>
+                                <a href="#">슬리핑 백</a>
+                                <a href="#">블랙홀 시리즈</a>
+                                <a href="#">백팩</a>
+                                <a href="#">슬링 &amp; 토드백</a>
+                                <a href="#">더플 백 &amp; 캐리어</a>
+                                <a href="#">노트북 가방</a>
+                                <a href="#">물병 등</a>
+                            </div><!--dropdown_men-pack-->
+                            <div class="dropdown_men-a">
+                                <a href="#">Accessory</a>
+                                <a href="#">모자</a>
+                                <a href="#">스카프 &amp; 장갑</a>
+                                <a href="#">양말</a>
+                                <a href="#">벨트</a>
+                                <a href="#">기타</a>
+                            </div><!--dropdown_men-acc-->
+                            <div class="dropdown_men-a">
+                                <a href="#">Sports</a>
+                                <a href="#">서핑</a>
+                                <a href="#">마운틴 바이크</a>
+                                <a href="#">트레일 러닝</a>
+                                <a href="#">클라이밍</a>
+                                <a href="#">플라이 피싱</a>
+                                <a href="#">스키 &amp; 스노우보드</a>
+                            </div><!--dropdown_men-sports-->
+                            <div class="dropdown_men-a">
+                                <a href="#"><img src="images/top/mens-new-hero.jpg" alt="new" width="300" height="300"></a>
+                            </div><!--dropdown_men-new-->
+                        </div><!--dropdown_men-->
+                    </li>
+                    <li class="bar"><a href="women.html">Women's</a>
+                      <div class="dropdown_women">
+                            <div class="dropdown_women-a">
+                                <a href="#">Clothing</a>
+                                <a href="#">아우터</a>
+                                <a href="#">플리스</a>
+                                <a href="#">티셔츠</a>
+                                <a href="#">스웻셔츠 &amp; 후디</a>
+                                <a href="#">스웨터</a>
+                                <a href="#">셔츠</a>
+                                <a href="#">바지 &amp; 반바지</a>
+                                <a href="#">오버롤 &amp; 점프수트</a>
+                            </div><!--dropdown_women-a-->
+                            <div class="dropdown_women-a">
+                                <a href="#">Pack &amp; Gear</a>
+                                <a href="#">슬리핑 백</a>
+                                <a href="#">블랙홀 시리즈</a>
+                                <a href="#">백팩</a>
+                                <a href="#">슬링 &amp; 토드백</a>
+                                <a href="#">더플 백 &amp; 캐리어</a>
+                                <a href="#">노트북 가방</a>
+                                <a href="#">물병 등</a>
+                            </div><!--dropdown_women-a-->
+                            <div class="dropdown_women-a">
+                                <a href="#">Accessory</a>
+                                <a href="#">모자</a>
+                                <a href="#">스카프 &amp; 장갑</a>
+                                <a href="#">양말</a>
+                                <a href="#">벨트</a>
+                                <a href="#">기타</a>
+                            </div><!--dropdown_women-a-->
+                            <div class="dropdown_women-a">
+                                <a href="#">Sports</a>
+                                <a href="#">서핑</a>
+                                <a href="#">마운틴 바이크</a>
+                                <a href="#">트레일 러닝</a>
+                                <a href="#">클라이밍</a>
+                                <a href="#">플라이 피싱</a>
+                                <a href="#">스키 &amp; 스노우보드</a>
+                            </div><!--dropdown_women-a-->
+                            <div class="dropdown_women-a">
+                                <a href="#"><img src="images/top/womens-new-hero.jpg" alt="new" width="300" height="300"></a>
+                            </div><!--dropdown_women-a-->
+                        </div><!--dropdown_women-->
+                    </li>
+                    <li class="bar"><a href="kid.html">Kid's &amp; Baby</a>
+                      <div class="dropdown_kid">
+                            
+                            <div class="dropdown_kid-a">
+                                <a href="#">Babies &amp; Toddlers</a>
+                                <a href="#">모든 영유아 의류 제품</a>
+                            </div><!--dropdown_kid-a-->          
+                            <div class="dropdown_kid-a">
+                                <a href="#">Boys'</a>
+                                <a href="#">모든 남아 의류 제품</a>
+                            </div><!--dropdown_kid-a-->
+                            
+                            <div class="dropdown_kid-a">
+                                <a href="#">Girls'</a>
+                                <a href="#">모든 여아 의류 제품</a>
+                            </div><!--dropdown_kid-a-->                  
+                            <div class="dropdown_kid-a">
+                                <video width="750" height="350" autoplay preload="auto" muted loop>
+                                    <source src="video/kids.mp4" type="video/mp4">
+                                </video>  
+                            </div><!--dropdown_kid-a-->
+                      </div><!--dropdown_kid-->        
+                    </li>
+                    <li class="bar"><a href="collection.html">Collection</a>
+                        <div class="dropdown_collection">
+                            <div>
+                              <img src="images/top/collection/collection1.png" alt="bivy jacket & vests" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection2.png" alt="innovation" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection3.png" alt="slient down" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection4.png" alt="down for down" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection5.png" alt="snap-t fleece" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection6.png" alt="fleecelab" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection7.png" alt="workwear" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection8.png" alt="better sweater" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection9.png" alt="hiking clothing & packs" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection10.png" alt="rainwear" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection11.png" alt="woolyester" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection12.png" alt="retro-x" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection13.png" alt="recycled fishing nets" width="400" height="350">
+                            </div>
+                        </div><!--dropdown_collection-->
+                    </li>
+                    <li class="bar"><a href="inside.html">INSIDE PATAGONIA</a></li>
+                </ul>
+                    
+               </div><!--top_banner-menu-->
+               <div class="top_banner-more">
+                <ul>
+                   <li><a href="#"><img src="images/top/help_over.png" alt="help" width="27" height="65"></a></li>  <!--고객센터 이미지-->
+                   <li><a href="login.html"><img src="images/top/user_over.png" alt="user" width="20" height="55"></a></li>
+                   <li><a href="#"><img src="images/top/basket_over.png" alt="basket" width="20" height="60"></a></li>
+                </ul>
+               </div>
+               <div class="top_banner-more1">
+                   <ul>
+                   <li><a href="#"><img src="images/top/help1.png" alt="help" width="25" height="25"></a></li>  <!--고객센터 이미지-->
+                   <li><a href="#"><img src="images/top/user1.png" alt="user" width="25" height="25"></a></li>
+                   <li><a href="#"><img src="images/top/1.png" alt="basket" width="25" height="25"></a></li>
+                </ul><!--top_banner-more1-->
+               </div>
+           </div><!--top_banner-->
+        </nav>
+    </header>
+    <section class="main1">
+        <div class="main1_video">
+            <video width="1880" height="1062" autoplay preload="auto" muted loop>
+                <source src="video/collection.mp4" type="video/mp4">
+            </video>
+        </div><!--main1_video-->
+        <div class="main1_video-over">
+            <h2>Collection</h2>
+        </div><!--main1_video-over-->
+    </section><!--main1-->
+    
+    <section class="main2">
+        <div class="c_slide">
+            <div class="c_img">
+                <img src="images/collection/collection1.png" alt="collection" width="600" height="450">
+                <button type="button">shop</button>
+                <div class="c_img-over"></div>
+            </div>
+            <div class="c_img">
+                <img src="images/collection/collection5.png" alt="collection" width="600" height="450">
+                <button type="button">shop</button>
+                <div class="c_img-over"></div>
+            </div>
+            <div class="c_img">
+                <img src="images/collection/collection6.png" alt="collection" width="600" height="450">
+                <button type="button">shop</button>
+                <div class="c_img-over"></div>
+            </div>
+            <div class="c_img">
+                <img src="images/collection/collection7.png" alt="collection" width="600" height="450">
+                <button type="button">shop</button>
+                <div class="c_img-over"></div>
+            </div>
+            <div class="c_img">
+                <img src="images/collection/collection8.png" alt="collection" width="600" height="450">
+                <button type="button">shop</button>
+                <div class="c_img-over"></div>
+            </div>
+            <div class="c_img">
+                <img src="images/collection/collection9.png" alt="collection" width="600" height="450">
+                <button type="button">shop</button>
+                <div class="c_img-over"></div>
+            </div>
+            <div class="c_img">
+                <img src="images/collection/collection10.png" alt="collection" width="600" height="450">
+                <button type="button">shop</button>
+                <div class="c_img-over"></div>
+            </div>
+        </div><!--c_slide-->
+    </section><!--main2-->
+    
+    <section class="main3">
+        <div class="men_c">
+            <img src="images/collection/mens.jpg" alt="남자컬렉션" width="930" height="440">
+            <div class="men_c-over"></div>
+            <div class="men_c-over-txt">
+                <p>Men's<br>Collection</p>
+            </div><!--men_c-over-txt-->
+        </div><!--men_c-->
+        <div class="women_c">
+            <img src="images/collection/womens.jpg" alt="여자컬렉션" width="930" height="440">
+            <div class="women_c-over"></div>
+            <div class="women_c-over-txt">
+                <p>Women's<br>Collection</p>
+            </div><!--women_c-over-txt-->
+        </div><!--women_c-->
+    </section><!--main4-->
+    
+    <section class="main4">
+       <div class="main4_bg"></div>
+       <div class="demand_wrap">
+        <div class="demand">
+            <img src="images/collection/re1.png" alt="품질" width="120" height="110">
+            <p class="c_over1">좋은 품질을<br>요구하세요</p>
+        </div><!--demand-->
+        <div class="demand">
+            <img src="images/collection/re2.png" alt="유기농" width="90" height="110">
+            <p class="c_over2">유기농 제품을<br>요구하세요</p>
+        </div><!--demand-->
+        <div class="demand">
+            <img src="images/collection/re3.png" alt="공정무역" width="90" height="110">
+            <p class="c_over3">공정무역 프로그램을<br>요구하세요</p>
+        </div><!--demand-->
+        <div class="demand">
+            <img src="images/collection/re4.png" alt="수선" width="110" height="110">
+            <p class="c_over4">제품에 대한 재활용을<br>요구하세요</p>
+        </div><!--demand-->
+        <div class="demand">
+            <img src="images/collection/re5.png" alt="수선" width="100" height="110">
+            <p class="c_over5">제품에 대한 재활용을<br>요구하세요</p>
+        </div><!--demand-->
+       </div><!--demand_wrap-->
+    </section><!--main3-->
+    
+    
+    <section class="main5">
+       <div class="circle_wrap">
+           <span> </span>
+           <span> </span>
+           <span> </span>
+           <span> </span>
+       <div class="main5_txt">
+            <h3>더 요구하세요</h3>
+            <p>여러분들은 의류 제조 과정을 변화시킬 수 있는 힘이 있습니다</p>
+       </div><!--main5_txt-->
+       </div><!--circle_wrap-->
+    </section><!--main5-->
+    <section class="main6">
+        <img src="images/main/main_07-background.png" alt="recrafted" width="1880" height="990">
+        <button><span>Watch video</span></button>
+    
+    </section><!--main6-->
+    <footer>
+        <div id="bottom-box1">  
+          <div class="bottom-bg">
+           <ul class="bottom-sub1">
+               <li>한국어</li>
+               <li>매장정보</li>
+               <li>기업의 사회적 책임</li>
+               <li>이용약관</li>
+               <li>개인정보처리방침</li>
+               <li>고객센터</li>
+               <li>이벤트</li>
+           </ul>
+         </div><!--bottom-bg-->
+         <div class="bottom_sub-wrap">
+          <div class="bottom-sub2">   
+           <address>
+               <p>㈜파타고니아코리아</p>
+               <p>서울특별시 강남구 삼성로122길 25 파타고니아코리아</p>
+               <p>대표: 존패트릭콜린스</p>
+           </address>
+           <address>
+               <p>온라인쇼핑몰문의: 02-6196-4096</p>
+               <p>AS문의: 1544-1876 (내선번호2번)</p>
+           </address>
+           </div>
+           <ul class="bottom-sub3">
+               <li>개인정보보호책임자: 이진섭</li>
+               <li>사업자등록번호: 220-88-66550 통신판매업신고: 2016-서울강남-03669 [사업자정보확인]</li>
+           </ul>
+           <ul class="bottom-sub4">
+               <li>patagoniakorea@patagonia.kr 토스페이먼츠 구매안전 서비스 [서비스가입사실확인] 호스팅 서비스: (주)고도몰</li>
+           </ul>
+           </div><!--bottom_sub-wrap-->
+        </div><!--bottom-box1-->
+    </footer>
+</body>
+</html>

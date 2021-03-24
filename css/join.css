@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/*join_container*/
+#join_container {
+    width: 1400px;
+    height: 1600px;
+/*    border: 1px solid red;*/
+    margin: 120px auto 0 auto;
+}
+
+/*회원가입*/
+#join_container h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*개인정보 입력*/
+.information {
+    height: 40px;
+    font-size: 20px;
+    border-bottom: 3px solid #333333;
+    margin-top: 50px;
+}
+
+#join fieldset {
+    border: none;
+}
+
+.box_i {
+    clear: both;
+    margin: 8px 0;
+}
+
+.join1 label {
+/*    background-color: yellow;*/
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+}
+
+.join1 input {
+    border: 1px solid #cccccc;
+    height: 40px;
+    text-align: left;
+    text-indent: 1em;
+}
+
+/*아이디*/
+#u_id {
+    width: 1107px;
+}
+
+/*비밀번호, 비밀번호 확인, 이름, 주소*/
+#u_pwd, #u_pwd2, #u_name, #add {
+    width: 1250px;
+}
+
+/*전화번호, 이메일, 우편번호*/
+#tel1, #tel2, #tel3, #u_email, #zip1, #zip2 {
+    width: 160px;
+}
+
+/*email option*/
+#email_op {
+    width: 160px;
+    height: 40px;
+}
+
+/*버튼*/
+button {
+    width: 134px;
+    height: 40px;
+    margin-left: 8px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    background-color: #333333;
+    border: none;
+    cursor: pointer;
+}
+
+.agree {
+    margin: 16px 0;
+}
+
+/*필수*/
+strong {
+    color: #e0592a;
+    font-size: 15px;
+}
+
+/*약관에 동의합니다*/
+.join2 label,.join3 label {
+    font-size: 15px;
+}
+
+/*체크박스*/
+#chk1, #chk2 {
+    margin-left: 1255px;
+}
+
+/*약관*/
+textarea {
+    resize: none;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.btn {
+    width: 430px;
+    height: auto;
+    text-align: center;
+    margin: 84px auto;
+}
+
+/*가입하기, 이전으로*/
+.btn input{
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn input[type=submit] {
+    background-color: #e0592a;
+    margin-right: 8px;
+}
+
+.btn input[type=button] {
+    background-color: #333333;
+}
+
+

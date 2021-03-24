@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+#bottom-box1 {
+    width: 1880px;
+    height: 210px;
+    padding-left: 126px;
+    font-size: 14px;
+    margin: 0 auto;
+    background-color: gainsboro;
+    padding-top: 10px;
+    position: relative;
+}
+
+.bottom-bg {
+    width: 1880px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #4c5157;
+}
+/*bottom-sub1*/
+.bottom-sub1 {
+    width: 960px;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 240px;
+    margin: 0 auto;
+    background: url(../images/bottom/logo1.png) no-repeat left center;
+    background-size: 200px 40px;
+    text-align: center;
+}
+
+.bottom-sub1 > li {
+    display: inline;
+    padding: 0 15px;
+    background-image: url(../images/bottom/bar2_1.png);
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    height: 17px;
+    margin-bottom: 32px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.bottom-sub1 > li:hover {
+    text-decoration: underline;
+}
+
+.bottom-sub1 > li:nth-child(1) {
+    padding-left: 0;
+    background-image: none;
+}
+
+/*bottom_sub-wrap*/
+.bottom_sub-wrap {
+    position: absolute;
+    left: 56%;
+    top: 60px;
+    transform: translate(-50%,0);
+    width: 1200px;
+    height: 150px;
+    background: url(../images/bottom/logo2.png) no-repeat 20px center;
+    background-size: 160px 80px;
+    
+}
+
+/*bottom-sub2*/
+.bottom-sub2 {
+    width: 800px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+/*bottom-sub3*/
+.bottom-sub3 {
+    width: 800px;
+    position: absolute;
+    top: 74px;
+    left: 50%;
+    transform: translate(-50%,0);
+    
+}
+
+.bottom-sub3 > li {
+    float: left;
+    padding: 0 10px;
+    background-image: url(../images/bottom/bar2.png);
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    height: 17px;
+    margin-bottom: 8px;
+}
+
+.bottom-sub3 > li:nth-child(1) {
+    padding-left: 0;
+    background-image: none;
+}
+
+/*bottom-sub4*/
+.bottom-sub4 {
+    width: 800px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.bottom-sub4 > li {
+    float: left;
+    padding: 0 8px;
+    background-image: url(../images/bottom/bar2.png);
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    height: 17px;
+    margin-bottom: 8px;
+}
+
+.bottom-sub4 > li:nth-child(1) {
+    padding-left: 0;
+    background-image: none;
+}
+
+address {
+    clear: both;
+}
+
+address p {
+    float: left;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    background-image: url(../images/bottom/bar2.png);
+    background-repeat: no-repeat;
+    background-position: 10px 6px;
+}
+
+address p:first-child {
+    background: none;
+    padding-left: 0;
+}

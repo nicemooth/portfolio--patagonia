@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>파타고니아</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/top_banner.js"></script>
+    <script src="js/inside/inside.js"></script>
+    <link rel="stylesheet" href="css/inside/inside_main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="images/patagonia_favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+   <header>
+        <nav id="top">
+           <div id="top_banner">
+               <div class="top_banner-logo">    
+                <h1><a href="index.html"><img src="images/top/patagonia_logo.png" alt="logo" width="170" height="55"></a></h1>
+                <h1><a href="index.html"><img src="images/top/patagonia_logo1.png" alt="logo" width="175" height="54"></a></h1>
+               </div><!--top_banner-logo-->
+               <div class="top_banner-menu">
+                <ul>
+                    <li class="bar"><a href="men.html">Men's</a>
+                        <div class="dropdown_men">
+                            <div class="dropdown_men-a">
+                                <a href="#">Clothing</a>
+                                <a href="#">아우터</a>
+                                <a href="#">플리스</a>
+                                <a href="#">티셔츠</a>
+                                <a href="#">스웻셔츠 &amp; 후디</a>
+                                <a href="#">스웨터</a>
+                                <a href="#">셔츠</a>
+                                <a href="#">바지 &amp; 반바지</a>
+                            </div><!--dropdown_men-clothing-->
+                            <div class="dropdown_men-a">
+                                <a href="#">Pack &amp; Gear</a>
+                                <a href="#">슬리핑 백</a>
+                                <a href="#">블랙홀 시리즈</a>
+                                <a href="#">백팩</a>
+                                <a href="#">슬링 &amp; 토드백</a>
+                                <a href="#">더플 백 &amp; 캐리어</a>
+                                <a href="#">노트북 가방</a>
+                                <a href="#">물병 등</a>
+                            </div><!--dropdown_men-pack-->
+                            <div class="dropdown_men-a">
+                                <a href="#">Accessory</a>
+                                <a href="#">모자</a>
+                                <a href="#">스카프 &amp; 장갑</a>
+                                <a href="#">양말</a>
+                                <a href="#">벨트</a>
+                                <a href="#">기타</a>
+                            </div><!--dropdown_men-acc-->
+                            <div class="dropdown_men-a">
+                                <a href="#">Sports</a>
+                                <a href="#">서핑</a>
+                                <a href="#">마운틴 바이크</a>
+                                <a href="#">트레일 러닝</a>
+                                <a href="#">클라이밍</a>
+                                <a href="#">플라이 피싱</a>
+                                <a href="#">스키 &amp; 스노우보드</a>
+                            </div><!--dropdown_men-sports-->
+                            <div class="dropdown_men-a">
+                                <a href="#"><img src="images/top/mens-new-hero.jpg" alt="new" width="300" height="300"></a>
+                            </div><!--dropdown_men-new-->
+                        </div><!--dropdown_men-->
+                    </li>
+                    <li class="bar"><a href="women.html">Women's</a>
+                      <div class="dropdown_women">
+                            <div class="dropdown_women-a">
+                                <a href="#">Clothing</a>
+                                <a href="#">아우터</a>
+                                <a href="#">플리스</a>
+                                <a href="#">티셔츠</a>
+                                <a href="#">스웻셔츠 &amp; 후디</a>
+                                <a href="#">스웨터</a>
+                                <a href="#">셔츠</a>
+                                <a href="#">바지 &amp; 반바지</a>
+                                <a href="#">오버롤 &amp; 점프수트</a>
+                            </div><!--dropdown_women-a-->
+                            <div class="dropdown_women-a">
+                                <a href="#">Pack &amp; Gear</a>
+                                <a href="#">슬리핑 백</a>
+                                <a href="#">블랙홀 시리즈</a>
+                                <a href="#">백팩</a>
+                                <a href="#">슬링 &amp; 토드백</a>
+                                <a href="#">더플 백 &amp; 캐리어</a>
+                                <a href="#">노트북 가방</a>
+                                <a href="#">물병 등</a>
+                            </div><!--dropdown_women-a-->
+                            <div class="dropdown_women-a">
+                                <a href="#">Accessory</a>
+                                <a href="#">모자</a>
+                                <a href="#">스카프 &amp; 장갑</a>
+                                <a href="#">양말</a>
+                                <a href="#">벨트</a>
+                                <a href="#">기타</a>
+                            </div><!--dropdown_women-a-->
+                            <div class="dropdown_women-a">
+                                <a href="#">Sports</a>
+                                <a href="#">서핑</a>
+                                <a href="#">마운틴 바이크</a>
+                                <a href="#">트레일 러닝</a>
+                                <a href="#">클라이밍</a>
+                                <a href="#">플라이 피싱</a>
+                                <a href="#">스키 &amp; 스노우보드</a>
+                            </div><!--dropdown_women-a-->
+                            <div class="dropdown_women-a">
+                                <a href="#"><img src="images/top/womens-new-hero.jpg" alt="new" width="300" height="300"></a>
+                            </div><!--dropdown_women-a-->
+                        </div><!--dropdown_women-->
+                    </li>
+                    <li class="bar"><a href="kid.html">Kid's &amp; Baby</a>
+                      <div class="dropdown_kid">
+                            
+                            <div class="dropdown_kid-a">
+                                <a href="#">Babies &amp; Toddlers</a>
+                                <a href="#">모든 영유아 의류 제품</a>
+                            </div><!--dropdown_kid-a-->          
+                            <div class="dropdown_kid-a">
+                                <a href="#">Boys'</a>
+                                <a href="#">모든 남아 의류 제품</a>
+                            </div><!--dropdown_kid-a-->
+                            
+                            <div class="dropdown_kid-a">
+                                <a href="#">Girls'</a>
+                                <a href="#">모든 여아 의류 제품</a>
+                            </div><!--dropdown_kid-a-->                  
+                            <div class="dropdown_kid-a">
+                                <video width="750" height="350" autoplay preload="auto" muted loop>
+                                    <source src="video/kids.mp4" type="video/mp4">
+                                </video>  
+                            </div><!--dropdown_kid-a-->
+                      </div><!--dropdown_kid-->        
+                    </li>
+                    <li class="bar"><a href="collection.html">Collection</a>
+                        <div class="dropdown_collection">
+                            <div>
+                              <img src="images/top/collection/collection1.png" alt="bivy jacket & vests" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection2.png" alt="innovation" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection3.png" alt="slient down" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection4.png" alt="down for down" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection5.png" alt="snap-t fleece" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection6.png" alt="fleecelab" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection7.png" alt="workwear" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection8.png" alt="better sweater" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection9.png" alt="hiking clothing & packs" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection10.png" alt="rainwear" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection11.png" alt="woolyester" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection12.png" alt="retro-x" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection13.png" alt="recycled fishing nets" width="400" height="350">
+                            </div>
+                        </div><!--dropdown_collection-->
+                    </li>
+                    <li class="bar"><a href="inside.html">INSIDE PATAGONIA</a></li>
+                </ul>
+                    
+               </div><!--top_banner-menu-->
+               <div class="top_banner-more">
+                <ul>
+                   <li><a href="#"><img src="images/top/help_over.png" alt="help" width="27" height="65"></a></li>  <!--고객센터 이미지-->
+                   <li><a href="login.html"><img src="images/top/user_over.png" alt="user" width="20" height="55"></a></li>
+                   <li><a href="#"><img src="images/top/basket_over.png" alt="basket" width="20" height="60"></a></li>
+                </ul>
+               </div>
+               <div class="top_banner-more1">
+                   <ul>
+                   <li><a href="#"><img src="images/top/help1.png" alt="help" width="25" height="25"></a></li>  <!--고객센터 이미지-->
+                   <li><a href="#"><img src="images/top/user1.png" alt="user" width="25" height="25"></a></li>
+                   <li><a href="#"><img src="images/top/1.png" alt="basket" width="25" height="25"></a></li>
+                </ul><!--top_banner-more1-->
+               </div>
+           </div><!--top_banner-->
+        </nav>
+    </header>
+    <section id="main1">
+       <div class="main1_bg">
+        <h2>INSIDE PATAGONIA</h2>
+        <div class="main1_over">
+        </div><!--main1_img-over-->
+       </div><!--main1_img-->    
+    </section><!--main1-->
+    
+    <section id="main2">
+        <div class="main2_img">
+            <h3>Patagonia Stories</h3>
+            <div class="m2_img-wrap">
+                <p><img src="images/inside/inside-p1.png" alt="파타고니아의 사명" width="850" height="550"></p>
+                <p>파타고니아의 사명</p>
+                <p>Yvon Chouinard</p>
+            </div><!--m2_img-wrap-->
+            
+            <div class="m2_img-wrap">
+                <p><img src="images/inside/inside-p2.png" alt="환경과 사회" width="850" height="550"></p>
+                <p>환경과 사회에 대한 책임</p>
+                <p>Yvon Chouinard</p>
+            </div><!--m2_img-wrap-->
+        </div><!--main2_img-->
+    </section><!--main2-->
+    <section id="main3">
+        <div class="main3_wrap">
+            <p><img src="images/inside/inside_main3.jpg" alt="책임기업" width="1880" height="990"></p>
+            <div class="main3_wrap-over"></div>
+            <h3>책임기업</h3>
+            <p>노동 조건 정당하게 보장하고 작업 환경을 안전하게 만들어 나감으로서<br> 파타고니아가 제품 생산 과정에서 책임 기업으로서의 역할을 다하려 합니다.</p>
+            <p>파타고니아는 제품을 만드는 과정이 안전하고, 공정하고, 인권을 존중하는 환경이 되도록 노력해 왔습니다. <br>우리가 어떻게 일해 왔는지, 지금은 어디에 와 있는지를 확인하실 수 있습니다.</p>
+        </div><!--main3_wrap-->
+    </section><!--main3-->
+    <section id="main4">
+        <div class="main4_img-wrap">
+            <div class="main4_img-txt">
+                <h3>파타고니아의 사명</h3>
+            </div><!--main4_img-txt-->
+            <div class="main4_img-slide">
+               <div class="box_wrap">
+                <p>핵심가치</p>
+                <p>Core Values</p>
+               </div><!--box_wrap-->
+               <div class="box_wrap">
+                <p>최고의 제품</p>
+                <p>Build the Best Products</p>
+               </div><!--box_wrap-->
+               <div class="box_wrap">
+                <p>불필요한 환경 피해의 최소화</p>
+                <p>Cause No Unnecessary Harm</p>
+               </div><!--box_wrap-->
+               <div class="box_wrap">
+                <p>환경 보호를 위한 사업</p>
+                <p>Use Business to Protect Nature</p>
+               </div><!--box_wrap-->
+               <div class="box_wrap">
+                <p>새로움</p>
+                <p>Not Bound by Convenion</p>
+               </div><!--box_wrap-->    
+            </div><!--main4_img-slide-->
+        </div><!--main4_img-wrap-->
+    </section><!--main4-->
+    
+    <section id="main5">
+        <!--환경을 위한 투표-->
+        <div class="main5_wrap">
+            <p><img src="images/inside/inside_main5.jpg" alt="환경을 위한 투표" width="1880" height="990"></p>
+            <div class="main5_wrap-over"></div>
+            <h3>환경을 위한 투표</h3>
+            <p>환경을 위해 투표하기 디자인 프로젝트</p>
+            <p>파타고니아는 우리가 살아가는 지구를 지키고 싶습니다. 책임을 지는 사업을 하고 싶습니다.<br> 우리에게는 자연을 지키는 일을 함께 할 리더가 필요합니다.</p>
+        </div><!--main5_wrap-->
+    </section><!--main5-->
+    
+    <section id="main6">
+        <!--환경을 위한 투표 관련 슬라이드-->
+          <div class="btn">
+               <p class="prev"></p>
+               <p class="next"></p>
+          </div><!--btn-->
+          <div class="img_wrap">
+           <div class="img_wrap-txt">
+               <h3>환경과 사회에 대한 책임</h3>
+           </div><!--img_wrap-txt-->
+           <div class="img_slide">
+                <div class="img_box">
+                    <img src="images/inside/inside_01.jpg" alt="오래 입은 옷" width="413" height="250">
+                    <div class="img_box-over"></div>
+                    <p>오래 입은 옷</p>
+                </div><!--img_box-->
+                <div class="img_box">
+                    <img src="images/inside/inside_02.gif" alt="발자국 찾기" width="413" height="250">
+                    <div class="img_box-over"></div>
+                    <p>발자국 찾기</p>
+                </div><!--img_box-->
+                <div class="img_box">
+                    <img src="images/inside/inside_03.jpg" alt="책임 기업이 되기 위하여" width="413" height="250">
+                    <div class="img_box-over"></div>
+                    <p>책임 기업이 되기 위하여</p>
+                </div><!--img_box-->
+                <div class="img_box">
+                    <img src="images/inside/inside_04.jpg" alt="풀뿌리 환경 단체 지원" width="413" height="250">
+                    <div class="img_box-over"></div>
+                    <p>풀뿌리 환경 단체 지원</p>
+                </div><!--img_box-->
+                <div class="img_box">
+                    <img src="images/inside/inside_05.jpg" alt="더욱 옳게 알기, 더욱 낫게 일하기" width="413" height="250">
+                    <div class="img_box-over"></div>
+                    <p>더욱 옳게 알기, 더욱 낫게 일하기</p>
+                </div><!--img_box-->
+                <div class="img_box">
+                    <img src="images/inside/inside_06.jpg" alt="파타고니아 공정무역" width="413" height="250">
+                    <div class="img_box-over"></div>
+                    <p>파타고니아 공정무역</p>
+                </div><!--img_box-->
+                <div class="img_box">
+                    <img src="images/inside/inside_07.jpg" alt="댐네이션" width="413" height="250">
+                    <div class="img_box-over"></div>
+                    <p>댐네이션</p>
+                </div><!--img_box-->
+                <div class="img_box">
+                    <img src="images/inside/inside_08.jpg" alt="파타고니아 국립공원" width="413" height="250">
+                    <div class="img_box-over"></div>
+                    <p>파타고니아 국립공원</p>
+                </div><!--img_box-->
+            </div><!--img_slide-->
+        </div><!--img_wrap-->
+        
+    </section><!--main6-->
+    <footer>
+        <div id="bottom-box1">  
+          <div class="bottom-bg">
+           <ul class="bottom-sub1">
+               <li>한국어</li>
+               <li>매장정보</li>
+               <li>기업의 사회적 책임</li>
+               <li>이용약관</li>
+               <li>개인정보처리방침</li>
+               <li>고객센터</li>
+               <li>이벤트</li>
+           </ul>
+         </div><!--bottom-bg-->
+         <div class="bottom_sub-wrap">
+          <div class="bottom-sub2">   
+           <address>
+               <p>㈜파타고니아코리아</p>
+               <p>서울특별시 강남구 삼성로122길 25 파타고니아코리아</p>
+               <p>대표: 존패트릭콜린스</p>
+           </address>
+           <address>
+               <p>온라인쇼핑몰문의: 02-6196-4096</p>
+               <p>AS문의: 1544-1876 (내선번호2번)</p>
+           </address>
+           </div>
+           <ul class="bottom-sub3">
+               <li>개인정보보호책임자: 이진섭</li>
+               <li>사업자등록번호: 220-88-66550 통신판매업신고: 2016-서울강남-03669 [사업자정보확인]</li>
+           </ul>
+           <ul class="bottom-sub4">
+               <li>patagoniakorea@patagonia.kr 토스페이먼츠 구매안전 서비스 [서비스가입사실확인] 호스팅 서비스: (주)고도몰</li>
+           </ul>
+           </div><!--bottom_sub-wrap-->
+        </div><!--bottom-box1-->
+    </footer>
+</body>
+</html>

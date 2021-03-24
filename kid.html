@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>파타고니아</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/top_banner.js"></script>
+    <script src="js/kid/kid_main.js"></script>
+    <script src="js/men/stickyfill.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <link rel="stylesheet" href="css/kid/kid_main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/patagonia_favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+   <header>
+        <nav id="top">
+           <div id="top_banner">
+               <div class="top_banner-logo">    
+                <h1><a href="index.html"><img src="images/top/patagonia_logo.png" alt="logo" width="170" height="55"></a></h1>
+                <h1><a href="index.html"><img src="images/top/patagonia_logo1.png" alt="logo" width="175" height="54"></a></h1>
+               </div><!--top_banner-logo-->
+               <div class="top_banner-menu">
+                <ul>
+                    <li class="bar"><a href="men.html">Men's</a>
+                        <div class="dropdown_men">
+                            <div class="dropdown_men-a">
+                                <a href="#">Clothing</a>
+                                <a href="#">아우터</a>
+                                <a href="#">플리스</a>
+                                <a href="#">티셔츠</a>
+                                <a href="#">스웻셔츠 &amp; 후디</a>
+                                <a href="#">스웨터</a>
+                                <a href="#">셔츠</a>
+                                <a href="#">바지 &amp; 반바지</a>
+                            </div><!--dropdown_men-clothing-->
+                            <div class="dropdown_men-a">
+                                <a href="#">Pack &amp; Gear</a>
+                                <a href="#">슬리핑 백</a>
+                                <a href="#">블랙홀 시리즈</a>
+                                <a href="#">백팩</a>
+                                <a href="#">슬링 &amp; 토드백</a>
+                                <a href="#">더플 백 &amp; 캐리어</a>
+                                <a href="#">노트북 가방</a>
+                                <a href="#">물병 등</a>
+                            </div><!--dropdown_men-pack-->
+                            <div class="dropdown_men-a">
+                                <a href="#">Accessory</a>
+                                <a href="#">모자</a>
+                                <a href="#">스카프 &amp; 장갑</a>
+                                <a href="#">양말</a>
+                                <a href="#">벨트</a>
+                                <a href="#">기타</a>
+                            </div><!--dropdown_men-acc-->
+                            <div class="dropdown_men-a">
+                                <a href="#">Sports</a>
+                                <a href="#">서핑</a>
+                                <a href="#">마운틴 바이크</a>
+                                <a href="#">트레일 러닝</a>
+                                <a href="#">클라이밍</a>
+                                <a href="#">플라이 피싱</a>
+                                <a href="#">스키 &amp; 스노우보드</a>
+                            </div><!--dropdown_men-sports-->
+                            <div class="dropdown_men-a">
+                                <a href="#"><img src="images/top/mens-new-hero.jpg" alt="new" width="300" height="300"></a>
+                            </div><!--dropdown_men-new-->
+                        </div><!--dropdown_men-->
+                    </li>
+                    <li class="bar"><a href="women.html">Women's</a>
+                      <div class="dropdown_women">
+                            <div class="dropdown_women-a">
+                                <a href="#">Clothing</a>
+                                <a href="#">아우터</a>
+                                <a href="#">플리스</a>
+                                <a href="#">티셔츠</a>
+                                <a href="#">스웻셔츠 &amp; 후디</a>
+                                <a href="#">스웨터</a>
+                                <a href="#">셔츠</a>
+                                <a href="#">바지 &amp; 반바지</a>
+                                <a href="#">오버롤 &amp; 점프수트</a>
+                            </div><!--dropdown_women-a-->
+                            <div class="dropdown_women-a">
+                                <a href="#">Pack &amp; Gear</a>
+                                <a href="#">슬리핑 백</a>
+                                <a href="#">블랙홀 시리즈</a>
+                                <a href="#">백팩</a>
+                                <a href="#">슬링 &amp; 토드백</a>
+                                <a href="#">더플 백 &amp; 캐리어</a>
+                                <a href="#">노트북 가방</a>
+                                <a href="#">물병 등</a>
+                            </div><!--dropdown_women-a-->
+                            <div class="dropdown_women-a">
+                                <a href="#">Accessory</a>
+                                <a href="#">모자</a>
+                                <a href="#">스카프 &amp; 장갑</a>
+                                <a href="#">양말</a>
+                                <a href="#">벨트</a>
+                                <a href="#">기타</a>
+                            </div><!--dropdown_women-a-->
+                            <div class="dropdown_women-a">
+                                <a href="#">Sports</a>
+                                <a href="#">서핑</a>
+                                <a href="#">마운틴 바이크</a>
+                                <a href="#">트레일 러닝</a>
+                                <a href="#">클라이밍</a>
+                                <a href="#">플라이 피싱</a>
+                                <a href="#">스키 &amp; 스노우보드</a>
+                            </div><!--dropdown_women-a-->
+                            <div class="dropdown_women-a">
+                                <a href="#"><img src="images/top/womens-new-hero.jpg" alt="new" width="300" height="300"></a>
+                            </div><!--dropdown_women-a-->
+                        </div><!--dropdown_women-->
+                    </li>
+                    <li class="bar"><a href="kid.html">Kid's &amp; Baby</a>
+                      <div class="dropdown_kid">
+                            
+                            <div class="dropdown_kid-a">
+                                <a href="#">Babies &amp; Toddlers</a>
+                                <a href="#">모든 영유아 의류 제품</a>
+                            </div><!--dropdown_kid-a-->          
+                            <div class="dropdown_kid-a">
+                                <a href="#">Boys'</a>
+                                <a href="#">모든 남아 의류 제품</a>
+                            </div><!--dropdown_kid-a-->
+                            
+                            <div class="dropdown_kid-a">
+                                <a href="#">Girls'</a>
+                                <a href="#">모든 여아 의류 제품</a>
+                            </div><!--dropdown_kid-a-->                  
+                            <div class="dropdown_kid-a">
+                                <video width="750" height="350" autoplay preload="auto" muted loop>
+                                    <source src="video/kids.mp4" type="video/mp4">
+                                </video>  
+                            </div><!--dropdown_kid-a-->
+                      </div><!--dropdown_kid-->        
+                    </li>
+                    <li class="bar"><a href="collection.html">Collection</a>
+                        <div class="dropdown_collection">
+                            <div>
+                              <img src="images/top/collection/collection1.png" alt="bivy jacket & vests" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection2.png" alt="innovation" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection3.png" alt="slient down" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection4.png" alt="down for down" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection5.png" alt="snap-t fleece" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection6.png" alt="fleecelab" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection7.png" alt="workwear" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection8.png" alt="better sweater" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection9.png" alt="hiking clothing & packs" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection10.png" alt="rainwear" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection11.png" alt="woolyester" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection12.png" alt="retro-x" width="400" height="350">
+                            </div>
+                            <div>
+                              <img src="images/top/collection/collection13.png" alt="recycled fishing nets" width="400" height="350">
+                            </div>
+                        </div><!--dropdown_collection-->
+                    </li>
+                    <li class="bar"><a href="inside.html">INSIDE PATAGONIA</a></li>
+                </ul>
+                    
+               </div><!--top_banner-menu-->
+               <div class="top_banner-more">
+                <ul>
+                   <li><a href="#"><img src="images/top/help_over.png" alt="help" width="27" height="65"></a></li>  <!--고객센터 이미지-->
+                   <li><a href="login.html"><img src="images/top/user_over.png" alt="user" width="20" height="55"></a></li>
+                   <li><a href="#"><img src="images/top/basket_over.png" alt="basket" width="20" height="60"></a></li>
+                </ul>
+               </div>
+               <div class="top_banner-more1">
+                   <ul>
+                   <li><a href="#"><img src="images/top/help1.png" alt="help" width="25" height="25"></a></li>  <!--고객센터 이미지-->
+                   <li><a href="#"><img src="images/top/user1.png" alt="user" width="25" height="25"></a></li>
+                   <li><a href="#"><img src="images/top/1.png" alt="basket" width="25" height="25"></a></li>
+                </ul><!--top_banner-more1-->
+               </div>
+           </div><!--top_banner-->
+        </nav>
+    </header>
+    <section id="kid_main-01">
+        <div class="main_01-bg"></div>
+        <div class="main_01-bg-txt">
+            <h1>Kid's &amp; Baby</h1>
+        </div><!--main_01-bg-txt-->
+        <div class="new_slide-wrap">
+            <!--신상품 이미지 슬라이드 전체-->
+            <div class="new_slide-txt">
+                <h2>Patagonia Kid's &amp; Baby New Arrivals 2021</h2>
+            </div>
+            <div class="new_slide">
+                <!--이미지 슬라이드-->
+                <div class="img_slide">
+                    <img src="images/kid/new1.jpg" alt="플리스점퍼" width="350" height="350">
+                </div>
+                <div class="img_slide">
+                    <img src="images/kid/new2.jpg" alt="패딩" width="350" height="350">
+                </div>
+                <div class="img_slide">
+                    <img src="images/kid/new3.jpg" alt="패딩" width="350" height="350">
+                </div>
+                <div class="img_slide">
+                    <img src="images/kid/new4.jpg" alt="플리스자켓" width="350" height="350">
+                </div>
+                <div class="img_slide">
+                    <img src="images/kid/new5.jpg" alt="플리스후드" width="350" height="350">
+                </div>
+                <div class="img_slide">
+                    <img src="images/kid/new6.jpg" alt="전신패딩" width="350" height="350">
+                </div>
+                <div class="img_slide">
+                    <img src="images/kid/new7.jpg" alt="전신패딩" width="350" height="350">
+                </div>
+                <div class="img_slide">
+                    <img src="images/kid/new8.jpg" alt="플리스자켓" width="350" height="350">
+                </div>
+                <div class="img_slide">
+                    <img src="images/kid/new9.jpg" alt="패딩자켓" width="350" height="350">
+                </div>
+            </div><!--new_slide-->
+        </div><!--new_slide-->
+    </section><!--kid_main-01-->
+    
+    <section class="kid_main-02">
+        <!--영상-->
+        <video width="1880" height="1062" autoplay preload="auto" muted loop>
+         <source src="video/kid-2.mp4" type="video/mp4">
+        </video>
+        <div id="video_over"></div>
+        <div class="video_over-txt">
+            <p>Wear it.<br>Outgrow it.<br>Pass it down.</p>
+        </div><!--video_over-txt-->
+    </section><!--kid_main-02-->
+    <section class="kid_main-03">
+        <!--세인트페인 처럼 위에 3개 아래 2개 5개 이미지 fadeIn-->
+        <div class="img_wrap">
+            <div class="f_img">
+                <p><img src="images/kid/kid_c1.jpg" alt="플리스후드" width="420" height="420"></p>
+                <p><img src="images/kid/kid_c2.jpg" alt="플리스티" width="420" height="420"></p>
+                <p><img src="images/kid/kid_c3.jpg" alt="바람막이자켓" width="420" height="420"></p>
+            </div><!--f_img-->
+            <div class="s_img">
+                <p><img src="images/kid/kid_c4.jpg" alt="플리스자켓" width="640" height="640"></p>
+                <p><img src="images/kid/kid_c5.jpg" alt="전신플리스" width="640" height="640"></p>
+            </div><!--s_img-->
+        </div><!--img_wrap-->
+    </section><!--kid_main-03-->
+    
+    <section class="kid_main-04">
+        <!--상품-->    
+        <div class="kid_side fit">
+            <!--상품시작점부터 sticky-->
+            <ul class="sidebar">
+                <li class="top_list1">New Arrivals</li>
+                <li class="top_list2">Babies &amp; Toddlers
+                    <ul class="sidebar_sub2">
+                        <li>모든 영유아 의류 제품</li>
+                    </ul><!--sidebar_sub2-->
+                </li><!--top_list-->
+                <li class="top_list3">Boys'
+                    <ul class="sidebar_sub3">
+                        <li>모든 남아 의류 제품</li>
+                    </ul><!--sidebar_sub-->
+                </li><!--top_list-->
+                <li class="top_list4">Girls'
+                    <ul class="sidebar_sub4">
+                        <li>모든 여아 의류 제품</li>
+                    </ul><!--sidebar_sub-->
+                </li><!--top_list-->
+            </ul><!--sidebar-->
+        </div><!--kid_side f_t-->
+        
+        <div class="item_list-wrap fit">    
+            <div class="item_list1">
+                <div class="item_01 fit">
+                    <img src="images/kid/t1.jpg" alt="패딩" width="368" height="400">
+                    <p>M's Recycled Cashmere Crewneck Sweater</p>
+                    <p>&#8361;210,000</p>
+                    <p>&#8361;150,000</p>
+                </div><!--item_01 fit-->
+                <div class="item_02 fit">
+                    <img src="images/kid/t2.jpg" alt="패딩" width="368" height="400">
+                    <p>M's Better Sweater&reg; Henley Pullover</p>
+                    <p>&#8361;130,000</p>
+                    <p>&#8361;77,000</p>
+                </div><!--item_02 fit-->
+                <div class="item_03 fit">
+                    <img src="images/kid/t3.jpg" alt="플리스후드" width="368" height="400">
+                    <p>M's Recycled Wool Sweater</p>
+                    <p>&#8361;152,000</p>
+                    <p>&#8361;110,000</p>
+                </div><!--item_03 fit-->
+                <div class="item_04 fit">
+                    <img src="images/kid/t4.jpg" alt="패딩" width="368" height="400">
+                    <p>M's Ponderosa Pine Roll-Neck Sweater</p>
+                    <p>&#8361;130,000</p>
+                    <p>&#8361;88,000</p>
+                </div><!--item_04 fit-->
+            </div><!--item-list1-->
+            <div class="item_list2">
+                <div class="item_01 fit">
+                    <img src="images/kid/t5.jpg" alt="플리스후드" width="368" height="400">
+                    <p>M's Better Sweater&reg; Rib Knit 1/4-Zip</p>
+                    <p>&#8361;130,000</p>
+                    <p>&#8361;77,000</p>
+                </div><!--item_01 fit-->
+                <div class="item_02 fit">
+                    <img src="images/kid/t6.jpg" alt="플리스후드" width="368" height="400">
+                    <p>M's Better Sweater&reg; Jacket</p>
+                    <p>&#8361;152,000</p>
+                    <p>&#8361;109,000</p>
+                </div><!--item_02 fit-->
+                <div class="item_03 fit">
+                    <img src="images/kid/t7.jpg" alt="플리스후드" width="368" height="400">
+                    <p>M's Better Sweater&reg; 1/4-Zip</p>
+                    <p>&#8361;130,000</p>
+                    <p>&#8361;92,000</p>
+                </div><!--item_03 fit-->
+                <div class="item_04 fit">
+                    <img src="images/kid/t8.jpg" alt="전신패딩" width="368" height="400">
+                    <p>M's Recycled Cashmere Hoody Pullover</p>
+                    <p>&#8361;279,000</p>
+                    <p>&#8361;179,000</p>
+                </div><!--item_04 fit-->
+            </div><!--item-list2-->
+            <div class="item_list3">
+                <div class="item_01 fit">
+                    <img src="images/kid/t9.jpg" alt="플리스후드" width="368" height="400">
+                    <p>M's Torrentshell 3L Jacket</p>
+                    <p>&#8361;160,000</p>
+                    <p>&#8361;110,000</p>
+                </div><!--item_01 fit-->
+                <div class="item_02 fit">
+                    <img src="images/kid/t10.jpg" alt="전신패딩" width="368" height="400">
+                    <p>M's City Storm Parka</p>
+                    <p>&#8361;540,000</p>
+                    <p>&#8361;380,000</p>
+                </div><!--item_02 fit-->
+                <div class="item_03 fit">
+                    <img src="images/kid/t11.jpg" alt="전신패딩" width="368" height="400">
+                    <p>M's Maple Grove Down Parka</p>
+                    <p>&#8361;410,000</p>
+                    <p>&#8361;290,000</p>
+                </div><!--item_03 fit-->
+                <div class="item_04 fit">
+                    <img src="images/kid/t12.jpg" alt="패딩" width="368" height="400">
+                    <p>M's Macro Puff&reg; Jacket</p>
+                    <p>&#8361;380,000</p>
+                    <p>&#8361;220,000</p>
+                </div><!--item_04 fit-->
+            </div><!--item-list3-->
+            <div class="item_list4">
+                <div class="item_01 fit">
+                    <img src="images/kid/t13.jpg" alt="패딩" width="368" height="400">
+                    <p>M's Classic Retro-X&reg; Fleece Jacket</p>
+                    <p>&#8361;350,000</p>
+                    <p>&#8361;210,000</p>
+                </div><!--item_01 fit-->
+                <div class="item_02 fit">
+                    <img src="images/kid/t14.jpg" alt="패딩자켓" width="368" height="400">
+                    <p>M's Synchilla&reg; Snap-T&reg; Fleece Pullover</p>
+                    <p>&#8361;152,000</p>
+                    <p>&#8361;105,000</p>
+                </div><!--item_02 fit-->
+                <div class="item_03 fit">
+                    <img src="images/kid/t15.jpg" alt="플리스후드" width="368" height="400">
+                    <p>M's Los Gatos 1/4-Zip Fleece</p>
+                    <p>&#8361;110,000</p>
+                    <p>&#8361;74,000</p>
+                </div><!--item_03 fit-->
+                <div class="item_04 fit">
+                    <img src="images/kid/t16.jpg" alt="플리스후드" width="368" height="400">
+                    <p>M's Woolyester Fleece Pullover</p>
+                    <p>&#8361;152,000</p>
+                    <p>&#8361;90,000</p>
+                </div><!--item_04 fit-->
+            </div><!--item-list4-->
+            <div class="item_list5">
+                <div class="item_01 fit">
+                    <img src="images/kid/t17.jpg" alt="플리스후드" width="368" height="400">
+                    <p>M's Down Sweater Jacket</p>
+                    <p>&#8361;251,000</p>
+                    <p>&#8361;170,000</p>
+                </div><!--item_01 fit-->
+                <div class="item_02 fit">
+                    <img src="images/kid/t18.jpg" alt="플리스후드" width="368" height="400">
+                    <p>M's Nano Puff&reg; Hoody</p>
+                    <p>&#8361;272,000</p>
+                    <p>&#8361;162,000</p>
+                </div><!--item_02 fit-->
+                <div class="item_03 fit">
+                    <img src="images/kid/t19.jpg" alt="플리스후드" width="368" height="400">
+                    <p>M's Down Sweater Hoody</p>
+                    <p>&#8361;300,000</p>
+                    <p>&#8361;210,000</p>
+                </div><!--item_03 fit-->
+                <div class="item_04 fit">
+                    <img src="images/kid/t20.jpg" alt="플리스후드" width="368" height="400">
+                    <p>M's Silent Down Jacket</p>
+                    <p>&#8361;300,000</p>
+                    <p>&#8361;210,000</p>
+                </div><!--item_04 fit-->
+            </div><!--item-list5-->      
+      </div><!--item_list-wrap f_t-->
+    </section><!--men_main-04-->
+    
+    <section class="kid_main-05">
+        <img src="images/main/main_07-background.png" alt="recrafted" width="1880" height="990">
+        <button><span>Watch video</span></button>
+    </section><!--men_main-05-->
+    <footer>
+        <div id="bottom-box1">  
+          <div class="bottom-bg">
+           <ul class="bottom-sub1">
+               <li>한국어</li>
+               <li>매장정보</li>
+               <li>기업의 사회적 책임</li>
+               <li>이용약관</li>
+               <li>개인정보처리방침</li>
+               <li>고객센터</li>
+               <li>이벤트</li>
+           </ul>
+         </div><!--bottom-bg-->
+         <div class="bottom_sub-wrap">
+          <div class="bottom-sub2">   
+           <address>
+               <p>㈜파타고니아코리아</p>
+               <p>서울특별시 강남구 삼성로122길 25 파타고니아코리아</p>
+               <p>대표: 존패트릭콜린스</p>
+           </address>
+           <address>
+               <p>온라인쇼핑몰문의: 02-6196-4096</p>
+               <p>AS문의: 1544-1876 (내선번호2번)</p>
+           </address>
+           </div>
+           <ul class="bottom-sub3">
+               <li>개인정보보호책임자: 이진섭</li>
+               <li>사업자등록번호: 220-88-66550 통신판매업신고: 2016-서울강남-03669 [사업자정보확인]</li>
+           </ul>
+           <ul class="bottom-sub4">
+               <li>patagoniakorea@patagonia.kr 토스페이먼츠 구매안전 서비스 [서비스가입사실확인] 호스팅 서비스: (주)고도몰</li>
+           </ul>
+           </div><!--bottom_sub-wrap-->
+        </div><!--bottom-box1-->
+    </footer>
+</body>
+</html>
